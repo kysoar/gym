@@ -132,6 +132,13 @@ register(
 # 2D
 
 register(
+    id="Lift-v0",
+    entry_point="gym.envs.mujoco:Lift",
+    max_episode_steps=100,
+    reward_threshold=2.25,
+)
+
+register(
     id="Reacher-v2",
     entry_point="gym.envs.mujoco:ReacherEnv",
     max_episode_steps=50,
