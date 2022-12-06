@@ -11,3 +11,4 @@ from gym.envs.mujoco.pusher import PusherEnv
 from gym.envs.mujoco.reacher import ReacherEnv
 from gym.envs.mujoco.swimmer import SwimmerEnv
 from gym.envs.mujoco.walker2d import Walker2dEnv
+from gym.envs.mujoco.lift import Lift
